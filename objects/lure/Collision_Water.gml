@@ -8,6 +8,12 @@ tempMax = 0;
 tempMin = global.fishMin[global.fishRodIndex];
 tempMax = global.fishMax[global.fishRodIndex];
 
-global.fish = irandom_range(tempMin, tempMax);
+if(global.caught < 1){
+	
+	global.fish = irandom_range(tempMin, tempMax);
 
-fish.sprite_index = global.fishSprites[(global.fish % 10)];
+	fish.sprite_index = global.fishSprites[(global.fish % 10)];
+}
+
+//keeps fish from changing after cast 
+global.caught =+ 1;
