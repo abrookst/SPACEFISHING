@@ -34,7 +34,10 @@
   },
   "name":"SPACEFISHING",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
