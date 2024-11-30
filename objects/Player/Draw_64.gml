@@ -1,0 +1,1 @@
+draw_text(300, 300, string("Throw") + string(global.throwVelocity));
